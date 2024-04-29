@@ -56,8 +56,6 @@ export const App = () => {
         </Routes>
         <ToastContainer autoClose={2000} />
       </Suspense>
-      {/* TODO: реалізувати логіку лоудера */}
-      {/* {isLoading && <Loader />} */}
     </>
   );
 };

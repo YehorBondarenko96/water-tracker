@@ -14,5 +14,5 @@ export default defineConfig({
           services: "/src/services"
         },
       },
-      base: '/water-tracker/',
+      base: '/',
     });
