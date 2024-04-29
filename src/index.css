@@ -20,40 +20,40 @@
 
   --secondary-color-gray: #00000063;
 
-  --bg-welcome-page-img-mob: url('../../src/img/bg_main_page_mob@1x.png');
-  --bg-welcome-page-img-mob2x: url('../../src/img/bg_main_page_mob@2x.png');
-  --bg-welcome-page-img-tab: url('../../src/img/bg_main_page_tab@1x.png');
-  --bg-welcome-page-img-tab2x: url('../../src/img/bg_main_page_tab@2x.png');
-  --bg-welcome-page-img: url('../../src/img/bg_main_page@1x.png');
-  --bg-welcome-page-img2x: url('../../src/img/bg_main_page@2x.png');
-  --welcome-page-element: url('../../src/img/main_page@1x.png');
-  --welcome-page-element2x: url('../../src/img/main_page@2x.png');
+  --bg-welcome-page-img-mob: url('./water-tracker/src/img/bg_main_page_mob@1x.png');
+  --bg-welcome-page-img-mob2x: url('./water-tracker/src/img/bg_main_page_mob@2x.png');
+  --bg-welcome-page-img-tab: url('./water-tracker/src/img/bg_main_page_tab@1x.png');
+  --bg-welcome-page-img-tab2x: url('./water-tracker/src/img/bg_main_page_tab@2x.png');
+  --bg-welcome-page-img: url('./water-tracker/src/img/bg_main_page@1x.png');
+  --bg-welcome-page-img2x: url('./water-tracker/src/img/bg_main_page@2x.png');
+  --welcome-page-element: url('./water-tracker/src/img/main_page@1x.png');
+  --welcome-page-element2x: url('./water-tracker/src/img/main_page@2x.png');
 
-  --home-page-bottle-img: url('../../src/img/home@1x.png');
-  --home-page-bottle-img2x: url('../../src/img/home@2x.png');
-  --bg-home-page-img-mob: url('../../src/img/bg_home_mob@1x.png');
-  --bg-home-page-img-mob2x: url('../../src/img/bg_home_mob@2x.png');
-  --bg-home-page-img-tab: url('../../src/img/bg_home_tab@1x.png');
-  --bg-home-page-img-tab2x: url('../../src/img/bg_home_tab@2x.png');
-  --bg-home-page-img: url('../../src/img/main_page@1x.png');
-  --bg-home-page-img2x: url('../../src/img/main_page@2x.png');
-  --home-page-bottle-img-tab: url('../../src/img/home_tab@1x.png');
-  --home-page-bottle-img-tab2x: url('../../src/img/home_tab@2x.png');
-  --home-page-bottle-img-mob: url('../../src/img/home_mob@1x.png');
-  --home-page-bottle-img-mob2x: url('../../src/img/home_mob@2x.png');
+  --home-page-bottle-img: url('./water-tracker/src/img/home@1x.png');
+  --home-page-bottle-img2x: url('./water-tracker/src/img/home@2x.png');
+  --bg-home-page-img-mob: url('./water-tracker/src/img/bg_home_mob@1x.png');
+  --bg-home-page-img-mob2x: url('./water-tracker/src/img/bg_home_mob@2x.png');
+  --bg-home-page-img-tab: url('./water-tracker/src/img/bg_home_tab@1x.png');
+  --bg-home-page-img-tab2x: url('./water-tracker/src/img/bg_home_tab@2x.png');
+  --bg-home-page-img: url('./water-tracker/src/img/main_page@1x.png');
+  --bg-home-page-img2x: url('./water-tracker/src/img/main_page@2x.png');
+  --home-page-bottle-img-tab: url('./water-tracker/src/img/home_tab@1x.png');
+  --home-page-bottle-img-tab2x: url('./water-tracker/src/img/home_tab@2x.png');
+  --home-page-bottle-img-mob: url('./water-tracker/src/img/home_mob@1x.png');
+  --home-page-bottle-img-mob2x: url('./water-tracker/src/img/home_mob@2x.png');
 
-  --bg-signin-img-mob: url('../../src/img/bg_sign_in_mob@1x.png');
-  --bg-signin-img-mob2x: url('../../src/img/bg_sign_in_mob@2x.png');
-  --bg-signin-img-tab: url('../../src/img/bg_sign_in_tab@1x.png');
-  --bg-signin-img-tab2x: url('../../src/img/bg_sign_in_tab@2x.png');
-  --bg-signin-img: url('../../src/img/main_page@1x.png');
-  --bg-signin-img2x: url('../../src/img/main_page@2x.png');
-  --signin-bottle-img-mob: url('../../src/img/sign_in_mob@1x.png');
-  --signin-bottle-img-mob2x: url('../../src/img/sign_in_mob@2x.png');
-  --signin-bottle-img-tab: url('../../src/img/sign_in_tab@1x.png');
-  --signin-bottle-img-tab2x: url('../../src//img/sign_in_tab@2x.png');
-  --signin-bottle-img: url('../../src/img/sign_in@1x.png');
-  --signin-bottle-img2x: url('../../src/img/sign_in@2x.png');
+  --bg-signin-img-mob: url('./water-tracker/src/img/bg_sign_in_mob@1x.png');
+  --bg-signin-img-mob2x: url('./water-tracker/src/img/bg_sign_in_mob@2x.png');
+  --bg-signin-img-tab: url('./water-tracker/src/img/bg_sign_in_tab@1x.png');
+  --bg-signin-img-tab2x: url('./water-tracker/src/img/bg_sign_in_tab@2x.png');
+  --bg-signin-img: url('./water-tracker/src/img/main_page@1x.png');
+  --bg-signin-img2x: url('./water-tracker/src/img/main_page@2x.png');
+  --signin-bottle-img-mob: url('./water-tracker/src/img/sign_in_mob@1x.png');
+  --signin-bottle-img-mob2x: url('./water-tracker/src/img/sign_in_mob@2x.png');
+  --signin-bottle-img-tab: url('./water-tracker/src/img/sign_in_tab@1x.png');
+  --signin-bottle-img-tab2x: url('./water-tracker/src//img/sign_in_tab@2x.png');
+  --signin-bottle-img: url('./water-tracker/src/img/sign_in@1x.png');
+  --signin-bottle-img2x: url('./water-tracker/src/img/sign_in@2x.png');
 }
 
 :root[data-theme='dark'] {
@@ -76,40 +76,40 @@
 
   --secondary-color-gray: #8f8f8f45;
 
-  --bg-welcome-page-img-mob: url('../../src/img/bg_main_page_mob_dark@1x.png');
-  --bg-welcome-page-img-mob2x: url('../../src/img/bg_main_page_mob_dark@2x.png');
-  --bg-welcome-page-img-tab: url('../../src/img/bg_main_page_tab_dark@1x.png');
-  --bg-welcome-page-img-tab2x: url('../../src/img/bg_main_page_tab_dark@2x.png');
-  --bg-welcome-page-img: url('../../src/img/bg_main_page_dark@1x.png');
-  --bg-welcome-page-img2x: url('../../src/img/bg_main_page_dark@2x.png');
-  --welcome-page-element: url('../../src/img/main_page_dark@1x.png');
-  --welcome-page-element2x: url('../../src/img/main_page_dark@2x.png');
+  --bg-welcome-page-img-mob: url('./water-tracker/src/img/bg_main_page_mob_dark@1x.png');
+  --bg-welcome-page-img-mob2x: url('./water-tracker/src/img/bg_main_page_mob_dark@2x.png');
+  --bg-welcome-page-img-tab: url('./water-tracker/src/img/bg_main_page_tab_dark@1x.png');
+  --bg-welcome-page-img-tab2x: url('./water-tracker/src/img/bg_main_page_tab_dark@2x.png');
+  --bg-welcome-page-img: url('./water-tracker/src/img/bg_main_page_dark@1x.png');
+  --bg-welcome-page-img2x: url('./water-tracker/src/img/bg_main_page_dark@2x.png');
+  --welcome-page-element: url('./water-tracker/src/img/main_page_dark@1x.png');
+  --welcome-page-element2x: url('./water-tracker/src/img/main_page_dark@2x.png');
 
-  --home-page-bottle-img: url('../../src/img/home_dark@1x.png');
-  --home-page-bottle-img2x: url('../../src/img/home_dark@2x.png');
-  --bg-home-page-img-mob: url('../../src/img/bg_home_mob_dark@1x.png');
-  --bg-home-page-img-mob2x: url('../../src/img/bg_home_mob_dark@2x.png');
-  --bg-home-page-img-tab: url('../../src/img/bg_home_tab_dark@1x.png');
-  --bg-home-page-img-tab2x: url('../../src/img/bg_home_tab_dark@2x.png');
-  --bg-home-page-img: url('../../src/img/main_page_dark@1x.png');
-  --bg-home-page-img2x: url('../../src/img/main_page_dark@2x.png');
-  --home-page-bottle-img-tab: url('../../src/img/home_tab_dark@1x.png');
-  --home-page-bottle-img-tab2x: url('../../src/img/home_tab_dark@2x.png');
-  --home-page-bottle-img-mob: url('../../src/img/home_mob_dark@1x.png');
-  --home-page-bottle-img-mob2x: url('../../src/img/home_mob_dark@2x.png');
+  --home-page-bottle-img: url('./water-tracker/src/img/home_dark@1x.png');
+  --home-page-bottle-img2x: url('./water-tracker/src/img/home_dark@2x.png');
+  --bg-home-page-img-mob: url('./water-tracker/src/img/bg_home_mob_dark@1x.png');
+  --bg-home-page-img-mob2x: url('./water-tracker/src/img/bg_home_mob_dark@2x.png');
+  --bg-home-page-img-tab: url('./water-tracker/src/img/bg_home_tab_dark@1x.png');
+  --bg-home-page-img-tab2x: url('./water-tracker/src/img/bg_home_tab_dark@2x.png');
+  --bg-home-page-img: url('./water-tracker/src/img/main_page_dark@1x.png');
+  --bg-home-page-img2x: url('./water-tracker/src/img/main_page_dark@2x.png');
+  --home-page-bottle-img-tab: url('./water-tracker/src/img/home_tab_dark@1x.png');
+  --home-page-bottle-img-tab2x: url('./water-tracker/src/img/home_tab_dark@2x.png');
+  --home-page-bottle-img-mob: url('./water-tracker/src/img/home_mob_dark@1x.png');
+  --home-page-bottle-img-mob2x: url('./water-tracker/src/img/home_mob_dark@2x.png');
 
-  --bg-signin-img-mob: url('../../src/img/bg_sign_in_mob_dark@1x.png');
-  --bg-signin-img-mob2x: url('../../src/img/bg_sign_in_mob_dark@2x.png');
-  --bg-signin-img-tab: url('../../src/img/bg_sign_in_tab_dark@1x.png');
-  --bg-signin-img-tab2x: url('../../src/img/bg_sign_in_tab_dark@2x.png');
-  --bg-signin-img: url('../../src/img/main_page_dark@1x.png');
-  --bg-signin-img2x: url('../../src/img/main_page_dark@2x.png');
-  --signin-bottle-img-mob: url('../../src/img/sign_in_mob_dark@1x.png');
-  --signin-bottle-img-mob2x: url('../../src/img/sign_in_mob_dark@2x.png');
-  --signin-bottle-img-tab: url('../../src/img/sign_in_tab_dark@1x.png');
-  --signin-bottle-img-tab2x: url('../../src/img/sign_in_tab_dark@2x.png');
-  --signin-bottle-img: url('../../src/img/sign_in_dark@1x.png');
-  --signin-bottle-img2x: url('../../src/img/sign_in_dark@2x.png');
+  --bg-signin-img-mob: url('./water-tracker/src/img/bg_sign_in_mob_dark@1x.png');
+  --bg-signin-img-mob2x: url('./water-tracker/src/img/bg_sign_in_mob_dark@2x.png');
+  --bg-signin-img-tab: url('./water-tracker/src/img/bg_sign_in_tab_dark@1x.png');
+  --bg-signin-img-tab2x: url('./water-tracker/src/img/bg_sign_in_tab_dark@2x.png');
+  --bg-signin-img: url('./water-tracker/src/img/main_page_dark@1x.png');
+  --bg-signin-img2x: url('./water-tracker/src/img/main_page_dark@2x.png');
+  --signin-bottle-img-mob: url('./water-tracker/src/img/sign_in_mob_dark@1x.png');
+  --signin-bottle-img-mob2x: url('./water-tracker/src/img/sign_in_mob_dark@2x.png');
+  --signin-bottle-img-tab: url('./water-tracker/src/img/sign_in_tab_dark@1x.png');
+  --signin-bottle-img-tab2x: url('./water-tracker/src/img/sign_in_tab_dark@2x.png');
+  --signin-bottle-img: url('./water-tracker/src/img/sign_in_dark@1x.png');
+  --signin-bottle-img2x: url('./water-tracker/src/img/sign_in_dark@2x.png');
 }
 
 body {
