@@ -1,27 +1,63 @@
-import { Route, Routes } from 'react-router-dom';
-import SharedLayout from 'components/SharedLayout/SharedLayout';
-import FirstPage from 'pages/FirstPage/FirstPage';
-import SecondPage from 'pages/SecondPage/SecondPage';
-import HalfPage from 'pages/HalfPage/HalfPage';
-import ErrorPage from 'pages/ErrorPage/ErrorPage';
-import { AppWrapper } from './App.styled';
+import Loader from 'components/Loader/Loader';
+import { Suspense, lazy } from 'react';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import { isLoggedIn } from './redux/auth/authSelectors';
+import { useSelector } from 'react-redux';
 
-const test = import.meta.env.VITE_API_TEST;
+import { getToken } from './redux/auth/authSelectors';
 
-function App() {
-  console.log(test);
+import Layout from 'components/Layout/Layout';
+import WelcomePage from 'pages/WelcomePage';
+import SigninPage from './pages/SigninPage';
+import SignupPage from './pages/SignupPage';
+import HomePage from './pages/HomePage';
+import { setAuthHeader } from './services/api';
+
+const NotLoggedOrY = lazy(() => import('./components/NotLoggedOrY/NotLoggedOrY'));
+const LoggedInOrNot = lazy(() => import('./components/LoggedInOrNot/LoggedInOrNot'));
+
+export const App = () => {
+  const isLogged = useSelector(isLoggedIn);
+  const token = useSelector(getToken);
+
+  if (token) { 
+    setAuthHeader(token)
+  };
   return (
-    <AppWrapper>
-      <Routes>
-        <Route path="/" element={<SharedLayout />}>
-          <Route path="/first" element={<FirstPage />} />
-          <Route path="/second" element={<SecondPage />}>
-            <Route path=":half" element={<HalfPage />} />
+    <>
+      <Suspense fallback={<Loader />}>
+        <Routes>
+          <Route path='/' element={<Layout />}>
+            <Route path='/welcome' element={
+              <LoggedInOrNot redirectTo='/home' component={<WelcomePage />}/>
+            } />
+            <Route
+              path="/home"
+              element={
+                  <NotLoggedOrY redirectTo='/welcome' component={<HomePage />}/>
+              }
+            />
+            <Route
+              path="/signin"
+              element={
+                <LoggedInOrNot redirectTo='/home' component={<SigninPage />}/>
+
+              }
+            />
+            <Route
+              path="/signup"
+              element={
+                <LoggedInOrNot redirectTo='/home' component={<SignupPage />}/>
+              }
+            />
+            <Route path="*" element={<Navigate to={isLogged ? '/home' : '/welcome'} replace />} />
           </Route>
-          <Route path="*" element={<ErrorPage />} />
-        </Route>
-      </Routes>
-    </AppWrapper>
+        </Routes>
+        <ToastContainer autoClose={2000} />
+      </Suspense>
+      {/* TODO: реалізувати логіку лоудера */}
+      {/* {isLoading && <Loader />} */}
+    </>
   );
-}
-export default App;
+};

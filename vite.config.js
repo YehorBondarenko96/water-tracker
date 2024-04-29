@@ -3,13 +3,15 @@ import react from "@vitejs/plugin-react-swc";
 import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
-      plugins: [react(), svgr()],
+  plugins: [react(), svgr()],
+  build: { sourcemap: true },
       resolve: {
         alias: {
           src: '/src',
           components: '/src/components',
+          img: '/src/img',
           pages: '/src/pages',
-          assets: '/src/assets'
+          services: "/src/services"
         },
       },
       base: '/water-tracker/',

@@ -1,51 +1,64 @@
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const HeaderContainer = styled.div`
-  padding: 20px;
-`;
+export const StyledHeader = styled.header`
+  padding-top: 8px;
+  display: block;
+  margin: 0 auto;
 
-export const Navigation = styled.nav`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
+  @media (min-width: 320px) {
+    width: 280px;
+  }
 
-export const StyledLink = styled(Link)`
-  padding: 8px 16px;
-  color: #ffffff; /* White text color */
-  text-shadow:
-    0 0 5px #00baff,
-    0 0 10px #00baff,
-    0 0 20px #00baff,
-    0 0 40px #00baff,
-    0 0 80px #00baff;
-  transition:
-    color 0.3s,
-    text-shadow 0.3s;
+  @media (min-width: 768px) {
+    padding-top: 16px;
+    width: 704px;
+  }
 
-  &:hover,
-  &:focus {
-    color: #00baff; /* Blue text color on hover/focus */
-    text-shadow:
-      0 0 5px #00baff,
-      0 0 10px #00baff,
-      0 0 20px #00baff,
-      0 0 40px #00baff,
-      0 0 80px #00baff;
+  @media (min-width: 1440px) {
+    width: 1216px;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #407bff;
+    font-family:
+      Roboto Regular,
+      sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    position: relative;
   }
 `;
 
-export const IconWrapper = styled.svg`
-  width: ${(props) => props.size || '12px'};
-  height: ${(props) => props.size || '12px'};
-  fill: ${(props) => props.color || '#ffffff'};
+export const Switcher = styled.label`
+  position: relative;
   display: inline-block;
-  margin-right: 5px;
-  box-shadow:
-    0 0 5px #00baff,
-    0 0 10px #00baff,
-    0 0 20px #00baff,
-    0 0 40px #00baff,
-    0 0 80px #00baff;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+`;
+
+export const StyledCheckbox = styled.input`
+  width: 0;
+  height: 0;
+  opacity: 0;
+`;
+
+export const Icon = styled.svg`
+  width: 16px;
+  height: 16px;
+  fill: var(--primery-color-blue);
+
+  @media (min-width: 320px) {
+    width: 24px;
+    height: 24px;
+  }
+
+  &:hover {
+    fill: var(--secondary-yellow);
+  }
 `;
